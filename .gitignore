@@ -1,0 +1,84 @@
+# 字节码或编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# 通常在 .spec 文件中定义 dist/ 和 build/ 目录，所以它们已经被包含了。
+# *.spec
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# pyenv
+.python-version
+
+# VScode
+.vscode/
+
+# PyCharm
+.idea/
+
+# virtualenv
+venv/
+ENV/
+env/
+# 如果你的虚拟环境文件夹有其他名称，也请添加，例如：
+# myenv/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.swp
+*~
+*.tmp
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
